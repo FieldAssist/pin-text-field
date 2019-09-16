@@ -13,20 +13,22 @@ class PinTextFieldStyle {
   final double fontSize;
   final double obscureFontSize;
   final double indicatorWidth;
-  final EdgeInsets padding;
+  final EdgeInsets margin;
   final double fieldWidth;
   final double fieldHeight;
   final bool isObscure;
   final BoxDecoration decoration;
   final InputDecoration fieldDecoration;
+  final EdgeInsets padding;
 
   PinTextFieldStyle({
     this.fontSize: 14,
-    this.obscureFontSize: 60,
+    this.obscureFontSize: 24,
     this.indicatorWidth: 2.0,
     this.isObscure,
     this.decoration: const BoxDecoration(),
-    this.padding: const EdgeInsets.symmetric(horizontal: 60.0),
+    this.margin: const EdgeInsets.symmetric(horizontal: 60.0),
+    this.padding: const EdgeInsets.symmetric(horizontal: 8.0),
     this.fieldWidth: 48.0,
     this.fieldHeight: 48.0,
     this.fieldDecoration: const InputDecoration(border: UnderlineInputBorder()),

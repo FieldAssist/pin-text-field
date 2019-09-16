@@ -19,7 +19,7 @@ setStateToError() {
 class PinFieldStateBloc {
   PinFieldStateBloc._();
 
-  StreamController _stateController = StreamController<PinFieldState>();
+  StreamController _stateController = StreamController<PinFieldState>.broadcast();
 
   Stream<PinFieldState> get stream => _stateController.stream;
 
