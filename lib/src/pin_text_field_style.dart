@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pin_text_field/pin_field_state.dart';
+import 'package:pin_text_field/src/pin_field_state.dart';
 
 const _primaryColor = Color(0xFF0097CD);
 const _defaultTextColor = Color(0xDE000000);
